@@ -11,7 +11,6 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:simpsonsv4="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4">
-        <terms:license>http://purl.org/NET/rdflicense/cc-by4.0</terms:license>
         <rdfs:comment>Name: 
 simpsonsv4.owl
 
