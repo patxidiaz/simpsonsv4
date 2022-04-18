@@ -1,0 +1,1168 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#"
+     xml:base="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4"
+     xmlns:cc="http://creativecommons.org/ns#"
+     xmlns:dcq="http://purl.org/dc/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:simpsonsv4="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4">
+        <dcq:license>http://purl.org/NET/rdflicense/cc-by4.0</dcq:license>
+        <rdfs:comment>Name: 
+simpsonsv4.owl
+
+Description: 
+The Simpsons ontology describes the characters their relationships in &quot;The 
+Simpsons&quot; cartoon series. 
+
+Author:
+Patxi Díaz.</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/terms -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/terms"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#sameAs -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#sameAs"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2003/11/swrl#AtomList -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2003/11/swrl#AtomList"/>
+    
+
+
+    <!-- http://www.w3.org/2003/11/swrl#ClassAtom -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+    
+
+
+    <!-- http://www.w3.org/2003/11/swrl#Imp -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2003/11/swrl#Imp"/>
+    
+
+
+    <!-- http://www.w3.org/2003/11/swrl#IndividualPropertyAtom -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+    
+
+
+    <!-- http://www.w3.org/2003/11/swrl#Variable -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2003/11/swrl#Variable"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasBrother -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasBrother">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isBrother"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"/>
+        <rdfs:comment>A character has a brother if he/she has a sibling and the sibling is a male</rdfs:comment>
+        <rdfs:label>hasBrother</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasDirector -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasDirector">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isDirectorOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Episode"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Person"/>
+        <rdfs:comment>An episode has a director</rdfs:comment>
+        <rdfs:label>hasDirector</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasFirstAppearanceIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasFirstAppearanceIn">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isFirstAppearanceOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Episode"/>
+        <rdfs:comment>A character have a first episode apperance</rdfs:comment>
+        <rdfs:label>hasFirstAppearanceIn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasMember -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasMember">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isMemberOfFamily"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Family"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"/>
+        <rdfs:comment>A family is formed by characters (membes)</rdfs:comment>
+        <rdfs:label>hasMember</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasSibling -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasSibling">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"/>
+        <rdfs:comment>A character can has a sibling</rdfs:comment>
+        <rdfs:label>hasSibling</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasSister -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasSister">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isSister"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"/>
+        <rdfs:comment>A character has a sister if he/she has a sibling and the sibling is a female</rdfs:comment>
+        <rdfs:label>hasSister</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasVoiceActor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasVoiceActor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isVoiceActorOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Person"/>
+        <rdfs:comment>A character can have a voice actor</rdfs:comment>
+        <rdfs:label>hasVoiceActor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasWriter -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasWriter">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isWriterOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Episode"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Person"/>
+        <rdfs:comment>An episode has a writer</rdfs:comment>
+        <rdfs:label>hasWriter</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isBrother -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isBrother">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"/>
+        <rdfs:comment>A character is brother of anocher character if they are siblings and he is a male</rdfs:comment>
+        <rdfs:label>isBrother</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isChild -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isChild">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isFather"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"/>
+        <rdfs:comment>A character is child of another character</rdfs:comment>
+        <rdfs:label>isChild</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isDirectorOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isDirectorOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Episode"/>
+        <rdfs:comment>A person is the director of an episode</rdfs:comment>
+        <rdfs:label>isDirectorOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isFather -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isFather">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"/>
+        <rdfs:comment>a character is father of another character</rdfs:comment>
+        <rdfs:label>isFather</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isFirstAppearanceOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isFirstAppearanceOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Episode"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"/>
+        <rdfs:comment>A character appears in one or several episodes</rdfs:comment>
+        <rdfs:label>isFirstAppearanceOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isGrandChild -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isGrandChild">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isGrandFather"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"/>
+        <rdfs:comment>A character is the grandchild of another character</rdfs:comment>
+        <rdfs:label>isGrandChild</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isGrandFather -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isGrandFather">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"/>
+        <rdfs:comment>a character is granfather of another character</rdfs:comment>
+        <rdfs:label>isGrandFather</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isMemberOfFamily -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isMemberOfFamily">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Family"/>
+        <rdfs:comment>A character is member of a family</rdfs:comment>
+        <rdfs:label>isMemberOfFamily</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isSister -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isSister">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"/>
+        <rdfs:comment>A character is sister of anocher character if they are siblings and she is a female</rdfs:comment>
+        <rdfs:label>isSister</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isVoiceActorOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isVoiceActorOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"/>
+        <rdfs:comment>A person is voice actor of a character</rdfs:comment>
+        <rdfs:label>isVoiceActorOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isWriterOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isWriterOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Episode"/>
+        <rdfs:comment>A person is the writer of an episode</rdfs:comment>
+        <rdfs:label>isWriterOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasAge -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasAge">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>Age of a character in the series</rdfs:comment>
+        <rdfs:label>hasAge</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasHeight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasHeight">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>Height of a character in the series</rdfs:comment>
+        <rdfs:label>hasHeight</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#AdultMan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#AdultMan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Male"/>
+        <rdfs:comment>Man character</rdfs:comment>
+        <rdfs:label>AdultMan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#AdultWoman -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#AdultWoman">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Female"/>
+        <rdfs:comment>Woman character</rdfs:comment>
+        <rdfs:label>AdultWoman</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Alien -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Alien">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Animal"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Human"/>
+        <rdfs:comment>Alien character</rdfs:comment>
+        <rdfs:label>Alien</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Animal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Animal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Human"/>
+        <rdfs:comment>Animal character</rdfs:comment>
+        <rdfs:label>Animal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Boy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Boy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Male"/>
+        <rdfs:comment>Boy character</rdfs:comment>
+        <rdfs:label>Boy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Cat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Cat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Animal"/>
+        <rdfs:comment>Cat characters of the series</rdfs:comment>
+        <rdfs:label>Cat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character">
+        <rdfs:comment>Series character.</rdfs:comment>
+        <rdfs:label>Character</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Director -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Director">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Person"/>
+        <rdfs:label>Director</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Dog -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Dog">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Animal"/>
+        <rdfs:comment>Dog character of the series</rdfs:comment>
+        <rdfs:label>Dog</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Episode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Episode">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasDirector"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Director"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>An episode of the series</rdfs:comment>
+        <rdfs:label>Episode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Family -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Family">
+        <rdfs:comment>Family of the characters</rdfs:comment>
+        <rdfs:label>Family</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Female -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Female">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Human"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Male"/>
+        <rdfs:comment>Female human character</rdfs:comment>
+        <rdfs:label>Female</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Fish -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Fish">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Animal"/>
+        <rdfs:comment>Fish character of the series</rdfs:comment>
+        <rdfs:label>Fish</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Girl -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Girl">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Female"/>
+        <rdfs:comment>Girl character</rdfs:comment>
+        <rdfs:label>Girl</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Human -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Human">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"/>
+        <rdfs:comment>Human series character</rdfs:comment>
+        <rdfs:label>Human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Male -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Male">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Human"/>
+        <rdfs:comment>Male human character</rdfs:comment>
+        <rdfs:label>Male</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#OldMan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#OldMan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Male"/>
+        <rdfs:comment>Old man character</rdfs:comment>
+        <rdfs:label>OldMan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#OldWoman -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#OldWoman">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Female"/>
+        <rdfs:comment>Old woman character</rdfs:comment>
+        <rdfs:label>OldWoman</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Person">
+        <rdfs:comment>Person that participates in the series</rdfs:comment>
+        <rdfs:label>Person</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#VoiceActor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#VoiceActor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Person"/>
+        <rdfs:label>VoiceActor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Writer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Writer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Person"/>
+        <rdfs:label>Writer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#AbrahamSimpson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#AbrahamSimpson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#OldMan"/>
+        <simpsonsv4:isFather rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#HomerSimpson"/>
+        <simpsonsv4:isMemberOfFamily rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Simpson"/>
+        <rdfs:comment>Also known as Grampa, he is the paternal grandfather of Bart, Lisa and Maggie Simpson</rdfs:comment>
+        <rdfs:sameAs>https://dbpedia.org/page/Grampa_Simpson</rdfs:sameAs>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#ApuNahasapeemapetilon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#ApuNahasapeemapetilon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#AdultMan"/>
+        <rdfs:comment>He is an Indian immigrant proprietor who runs the Kwik-E-Mart, a popular convenience store in Springfield</rdfs:comment>
+        <rdfs:sameAs>https://dbpedia.org/page/Apu_Nahasapeemapetilon</rdfs:sameAs>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#BarneyGumble -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#BarneyGumble">
+        <rdf:type rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#AdultMan"/>
+        <rdfs:comment>Barney is the town drunk of Springfield and one of Homer Simpson&apos;s friends</rdfs:comment>
+        <rdfs:sameAs>https://dbpedia.org/page/Barney_Gumble</rdfs:sameAs>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#BartSimpson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#BartSimpson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Boy"/>
+        <simpsonsv4:hasFirstAppearanceIn rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#EpisodeS1E1"/>
+        <simpsonsv4:hasSibling rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#LisaSimpson"/>
+        <simpsonsv4:hasSibling rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#MaggieSimpson"/>
+        <simpsonsv4:isMemberOfFamily rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Simpson"/>
+        <rdfs:comment>Bart is the eldest child and only son of Homer and Marge</rdfs:comment>
+        <rdfs:sameAs>https://dbpedia.org/page/Bart_Simpson</rdfs:sameAs>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Blinky -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Blinky">
+        <rdf:type rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Fish"/>
+        <rdfs:comment>Is a three-eyed orange fish species, found in the ponds and lakes outside the nuclear power plant</rdfs:comment>
+        <rdfs:label>Blinky</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#DanCastellaneta -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#DanCastellaneta">
+        <rdf:type rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Person"/>
+        <simpsonsv4:isVoiceActorOf rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#AbrahamSimpson"/>
+        <simpsonsv4:isVoiceActorOf rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#BarneyGumble"/>
+        <simpsonsv4:isVoiceActorOf rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#HomerSimpson"/>
+        <simpsonsv4:isVoiceActorOf rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#SantasLittleHelper"/>
+        <simpsonsv4:isVoiceActorOf rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Snowball_I"/>
+        <simpsonsv4:isVoiceActorOf rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Snowball_II"/>
+        <simpsonsv4:isVoiceActorOf rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Snowball_III"/>
+        <simpsonsv4:isVoiceActorOf rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Snowball_IV"/>
+        <simpsonsv4:isVoiceActorOf rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Snowball_V"/>
+        <rdfs:comment>Is an American actor, comedian and screenwriter</rdfs:comment>
+        <rdfs:sameAs>https://dbpedia.org/page/Dan_Castellaneta</rdfs:sameAs>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#DavidSilverman -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#DavidSilverman">
+        <rdf:type rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Person"/>
+        <simpsonsv4:isDirectorOf rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#EpisodeS1E1"/>
+        <simpsonsv4:isDirectorOf rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#EpisodeS1E2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#EpisodeS1E1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#EpisodeS1E1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Episode"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#EpisodeS1E2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#EpisodeS1E2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Episode"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#HankAzaria -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#HankAzaria">
+        <rdf:type rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Person"/>
+        <simpsonsv4:isVoiceActorOf rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#ApuNahasapeemapetilon"/>
+        <rdfs:comment>Is an American actor, comedian and producer.</rdfs:comment>
+        <rdfs:sameAs>https://dbpedia.org/page/Hank_Azaria</rdfs:sameAs>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#HomerSimpson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#HomerSimpson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#AdultMan"/>
+        <simpsonsv4:hasFirstAppearanceIn rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#EpisodeS1E1"/>
+        <simpsonsv4:isFather rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#BartSimpson"/>
+        <simpsonsv4:isFather rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#LisaSimpson"/>
+        <simpsonsv4:isFather rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#MaggieSimpson"/>
+        <simpsonsv4:isMemberOfFamily rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Simpson"/>
+        <simpsonsv4:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</simpsonsv4:hasAge>
+        <rdfs:comment>Homer Jay Simpson is one of the main characters. He&apos;s one of the most influential characters in the history of television.</rdfs:comment>
+        <rdfs:sameAs>https://dbpedia.org/page/Homer_Simpson</rdfs:sameAs>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#JulieKavner -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#JulieKavner">
+        <rdf:type rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Person"/>
+        <simpsonsv4:isVoiceActorOf rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#MargeSimpson"/>
+        <rdfs:comment>Is an American actress</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Kang -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Kang">
+        <rdf:type rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Alien"/>
+        <rdfs:sameAs>He is a Rigellian from Rigel 7</rdfs:sameAs>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Kodos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Kodos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Alien"/>
+        <rdfs:sameAs>She is a Rigellian from Rigel</rdfs:sameAs>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#LisaSimpson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#LisaSimpson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Girl"/>
+        <simpsonsv4:hasFirstAppearanceIn rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#EpisodeS1E1"/>
+        <simpsonsv4:hasSibling rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#MaggieSimpson"/>
+        <simpsonsv4:isMemberOfFamily rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Simpson"/>
+        <simpsonsv4:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</simpsonsv4:hasAge>
+        <rdfs:comment>She is the middle child and most accomplished of the Simpson family.</rdfs:comment>
+        <rdfs:sameAs>https://dbpedia.org/page/Lisa_Simpson</rdfs:sameAs>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#MaggieSimpson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#MaggieSimpson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Girl"/>
+        <simpsonsv4:hasFirstAppearanceIn rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#EpisodeS1E1"/>
+        <simpsonsv4:isMemberOfFamily rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Simpson"/>
+        <rdfs:comment>Maggie is the youngest child of Homer and Marge</rdfs:comment>
+        <rdfs:sameAs>https://dbpedia.org/page/Maggie_Simpson</rdfs:sameAs>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#MargeSimpson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#MargeSimpson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#AdultWoman"/>
+        <simpsonsv4:hasFirstAppearanceIn rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#EpisodeS1E1"/>
+        <simpsonsv4:isMemberOfFamily rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Simpson"/>
+        <rdfs:comment>Marge is the matriarch of the Simpson family</rdfs:comment>
+        <rdfs:sameAs>https://dbpedia.org/page/Marge_Simpson</rdfs:sameAs>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#MimiPond -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#MimiPond">
+        <simpsonsv4:isWriterOf rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#EpisodeS1E1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#NancyCartwright -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#NancyCartwright">
+        <rdf:type rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Person"/>
+        <simpsonsv4:isVoiceActorOf rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#BartSimpson"/>
+        <simpsonsv4:isVoiceActorOf rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#MaggieSimpson"/>
+        <rdfs:comment>Is an American actress</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#SantasLittleHelper -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#SantasLittleHelper">
+        <rdf:type rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Dog"/>
+        <simpsonsv4:hasFirstAppearanceIn rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#EpisodeS1E1"/>
+        <rdfs:comment>He is the pet greyhound of the Simpson family</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Simpson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Simpson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Family"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Snowball_I -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Snowball_I">
+        <rdf:type rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Cat"/>
+        <rdfs:comment>Was the first cat owned by Lisa</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Snowball_II -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Snowball_II">
+        <rdf:type rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Cat"/>
+        <rdfs:comment>Is the Simpson family&apos;s second cat</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Snowball_III -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Snowball_III">
+        <rdf:type rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Cat"/>
+        <rdfs:comment>Was the third cat owned by the Simpson family.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Snowball_IV -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Snowball_IV">
+        <rdf:type rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Cat"/>
+        <rdfs:comment>was the fourth cat owned by the Simpson family.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Snowball_V -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Snowball_V">
+        <rdf:type rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Cat"/>
+        <rdfs:comment>Snowball V, also referred to as Snowball II, is the Simpsons&apos; fifth cat and looks exactly like the original Snowball II, who died when a truck hit her</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#YeardleySmith -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#YeardleySmith">
+        <rdf:type rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Person"/>
+        <simpsonsv4:isVoiceActorOf rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#LisaSimpson"/>
+        <rdfs:comment>Is an American actress, artist and writer</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="urn:swrl:var#c">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#s">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#p">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#e">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#F">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#S">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#G">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasSibling"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#c"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#s"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Male"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#s"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl:var#c"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasBrother"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#c"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#s"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasSibling"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#c"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#s"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Female"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#s"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl:var#c"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasSister"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#c"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#s"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isVoiceActorOf"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#p"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#c"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Person"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#p"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#VoiceActor"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#p"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Person"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#p"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isWriterOf"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#p"/>
+                                <swrl:argument2 rdf:resource="urn:swrl:var#e"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Writer"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#p"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isFather"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#F"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#S"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isFather"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#G"/>
+                                <swrl:argument2 rdf:resource="urn:swrl:var#F"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isGrandFather"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#G"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#S"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
