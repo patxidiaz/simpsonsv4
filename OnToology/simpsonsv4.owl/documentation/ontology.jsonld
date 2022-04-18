@@ -1,0 +1,1485 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Director"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasDirector"
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#first" : [ {
+    "@id" : "_:genid11"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" : [ {
+    "@list" : [ ]
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrl#AtomList"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#G"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#F"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isFather"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#first" : [ {
+    "@id" : "_:genid13"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" : [ {
+    "@id" : "_:genid10"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrl#AtomList"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#F"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#S"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isFather"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#first" : [ {
+    "@id" : "_:genid15"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" : [ {
+    "@list" : [ ]
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrl#AtomList"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#G"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#S"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isGrandFather"
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrl#Imp"
+  } ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@id" : "_:genid21"
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@id" : "_:genid23"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#first" : [ {
+    "@id" : "_:genid18"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" : [ {
+    "@list" : [ ]
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrl#AtomList"
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrl#ClassAtom"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#first" : [ {
+    "@id" : "_:genid20"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" : [ {
+    "@id" : "_:genid17"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrl#AtomList"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrl#Imp"
+  } ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@id" : "_:genid5"
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@id" : "_:genid7"
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrl#ClassAtom"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#s"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Female"
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#first" : [ {
+    "@id" : "_:genid22"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" : [ {
+    "@id" : "_:genid19"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrl#AtomList"
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#s"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasSibling"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#first" : [ {
+    "@id" : "_:genid24"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" : [ {
+    "@list" : [ ]
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrl#AtomList"
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#s"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasSister"
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrl#Imp"
+  } ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@id" : "_:genid30"
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@id" : "_:genid32"
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#first" : [ {
+    "@id" : "_:genid27"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" : [ {
+    "@list" : [ ]
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrl#AtomList"
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrl#ClassAtom"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"
+  } ]
+}, {
+  "@id" : "_:genid28",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#first" : [ {
+    "@id" : "_:genid29"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" : [ {
+    "@id" : "_:genid26"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrl#AtomList"
+  } ]
+}, {
+  "@id" : "_:genid29",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrl#ClassAtom"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#s"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Male"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#first" : [ {
+    "@id" : "_:genid4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" : [ {
+    "@list" : [ ]
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrl#AtomList"
+  } ]
+}, {
+  "@id" : "_:genid30",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#first" : [ {
+    "@id" : "_:genid31"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" : [ {
+    "@id" : "_:genid28"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrl#AtomList"
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#s"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasSibling"
+  } ]
+}, {
+  "@id" : "_:genid32",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#first" : [ {
+    "@id" : "_:genid33"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" : [ {
+    "@list" : [ ]
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrl#AtomList"
+  } ]
+}, {
+  "@id" : "_:genid33",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#s"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasBrother"
+  } ]
+}, {
+  "@id" : "_:genid34",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrl#Imp"
+  } ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@id" : "_:genid37"
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@id" : "_:genid39"
+  } ]
+}, {
+  "@id" : "_:genid35",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#first" : [ {
+    "@id" : "_:genid36"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" : [ {
+    "@list" : [ ]
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrl#AtomList"
+  } ]
+}, {
+  "@id" : "_:genid36",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrl#ClassAtom"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Person"
+  } ]
+}, {
+  "@id" : "_:genid37",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#first" : [ {
+    "@id" : "_:genid38"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" : [ {
+    "@id" : "_:genid35"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrl#AtomList"
+  } ]
+}, {
+  "@id" : "_:genid38",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isVoiceActorOf"
+  } ]
+}, {
+  "@id" : "_:genid39",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#first" : [ {
+    "@id" : "_:genid40"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" : [ {
+    "@list" : [ ]
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrl#AtomList"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#e"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isWriterOf"
+  } ]
+}, {
+  "@id" : "_:genid40",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrl#ClassAtom"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#VoiceActor"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#first" : [ {
+    "@id" : "_:genid6"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" : [ {
+    "@id" : "_:genid3"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrl#AtomList"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrl#ClassAtom"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Person"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#first" : [ {
+    "@id" : "_:genid8"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" : [ {
+    "@list" : [ ]
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrl#AtomList"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrl#ClassAtom"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Writer"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrl#Imp"
+  } ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@id" : "_:genid12"
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@id" : "_:genid14"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/terms",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@value" : "http://purl.org/NET/rdflicense/cc-by4.0"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Name: \nsimpsonsv4.owl\n\nDescription: \nThe Simpsons ontology describes the characters their relationships in \"The \nSimpsons\" cartoon series. \n\nAuthor:\nPatxi Díaz."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#AbrahamSimpson",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isFather" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#HomerSimpson"
+  } ],
+  "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isMemberOfFamily" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Simpson"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#OldMan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Also known as Grampa, he is the paternal grandfather of Bart, Lisa and Maggie Simpson"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Grampa_Simpson"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#AdultMan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Man character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "AdultMan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Male"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#AdultWoman",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Woman character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "AdultWoman"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Female"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Alien",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Alien character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Alien"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Animal"
+  }, {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Human"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Animal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Animal character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Animal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Human"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#ApuNahasapeemapetilon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#AdultMan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "He is an Indian immigrant proprietor who runs the Kwik-E-Mart, a popular convenience store in Springfield"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Apu_Nahasapeemapetilon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#BarneyGumble",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#AdultMan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Barney is the town drunk of Springfield and one of Homer Simpson's friends"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Barney_Gumble"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#BartSimpson",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasFirstAppearanceIn" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#EpisodeS1E1"
+  } ],
+  "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasSibling" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#LisaSimpson"
+  }, {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#MaggieSimpson"
+  } ],
+  "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isMemberOfFamily" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Simpson"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Boy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Bart is the eldest child and only son of Homer and Marge"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Bart_Simpson"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Blinky",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Fish"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Is a three-eyed orange fish species, found in the ponds and lakes outside the nuclear power plant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Blinky"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Boy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Boy character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Boy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Male"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Cat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Cat characters of the series"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Cat"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Animal"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Series character."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#DanCastellaneta",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isVoiceActorOf" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#AbrahamSimpson"
+  }, {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#BarneyGumble"
+  }, {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#HomerSimpson"
+  }, {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#SantasLittleHelper"
+  }, {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Snowball_I"
+  }, {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Snowball_II"
+  }, {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Snowball_III"
+  }, {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Snowball_IV"
+  }, {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Snowball_V"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Is an American actor, comedian and screenwriter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Dan_Castellaneta"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#DavidSilverman",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isDirectorOf" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#EpisodeS1E1"
+  }, {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#EpisodeS1E2"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Person"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Director",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Director"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Person"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Dog",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Dog character of the series"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Dog"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Animal"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Episode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An episode of the series"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Episode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#EpisodeS1E1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Episode"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#EpisodeS1E2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Episode"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Family",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Family of the characters"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Family"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Female",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Female human character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Female"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Human"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Male"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Fish",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Fish character of the series"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Fish"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Animal"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Girl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Girl character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Girl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Female"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#HankAzaria",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isVoiceActorOf" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#ApuNahasapeemapetilon"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Is an American actor, comedian and producer."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Hank_Azaria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#HomerSimpson",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasAge" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "38"
+  } ],
+  "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasFirstAppearanceIn" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#EpisodeS1E1"
+  } ],
+  "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isFather" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#BartSimpson"
+  }, {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#LisaSimpson"
+  }, {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#MaggieSimpson"
+  } ],
+  "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isMemberOfFamily" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Simpson"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#AdultMan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Homer Jay Simpson is one of the main characters. He's one of the most influential characters in the history of television."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Homer_Simpson"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Human",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Human series character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Human"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#JulieKavner",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isVoiceActorOf" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#MargeSimpson"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Is an American actress"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Kang",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Alien"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "He is a Rigellian from Rigel 7"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Kodos",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Alien"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "She is a Rigellian from Rigel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#LisaSimpson",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasAge" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "8"
+  } ],
+  "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasFirstAppearanceIn" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#EpisodeS1E1"
+  } ],
+  "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasSibling" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#MaggieSimpson"
+  } ],
+  "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isMemberOfFamily" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Simpson"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Girl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "She is the middle child and most accomplished of the Simpson family."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Lisa_Simpson"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#MaggieSimpson",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasFirstAppearanceIn" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#EpisodeS1E1"
+  } ],
+  "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isMemberOfFamily" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Simpson"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Girl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Maggie is the youngest child of Homer and Marge"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Maggie_Simpson"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Male",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Male human character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Male"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Human"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#MargeSimpson",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasFirstAppearanceIn" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#EpisodeS1E1"
+  } ],
+  "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isMemberOfFamily" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Simpson"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#AdultWoman"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Marge is the matriarch of the Simpson family"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Marge_Simpson"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#MimiPond",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isWriterOf" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#EpisodeS1E1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#NancyCartwright",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isVoiceActorOf" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#BartSimpson"
+  }, {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#MaggieSimpson"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Is an American actress"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#OldMan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Old man character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "OldMan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Male"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#OldWoman",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Old woman character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "OldWoman"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Female"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Person that participates in the series"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Person"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#SantasLittleHelper",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasFirstAppearanceIn" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#EpisodeS1E1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Dog"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "He is the pet greyhound of the Simpson family"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Simpson",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Family"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Snowball_I",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Cat"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Was the first cat owned by Lisa"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Snowball_II",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Cat"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Is the Simpson family's second cat"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Snowball_III",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Cat"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Was the third cat owned by the Simpson family."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Snowball_IV",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Cat"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "was the fourth cat owned by the Simpson family."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Snowball_V",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Cat"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Snowball V, also referred to as Snowball II, is the Simpsons' fifth cat and looks exactly like the original Snowball II, who died when a truck hit her"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#VoiceActor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "VoiceActor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Person"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Writer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Writer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Person"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#YeardleySmith",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isVoiceActorOf" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#LisaSimpson"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Is an American actress, artist and writer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasAge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Age of a character in the series"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "hasAge"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasBrother",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A character has a brother if he/she has a sibling and the sibling is a male"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "hasBrother"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isBrother"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasDirector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An episode has a director"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Episode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "hasDirector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Person"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isDirectorOf"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasFirstAppearanceIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A character have a first episode apperance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "hasFirstAppearanceIn"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Episode"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isFirstAppearanceOf"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasHeight",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Height of a character in the series"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "hasHeight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasMember",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A family is formed by characters (membes)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Family"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "hasMember"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isMemberOfFamily"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasSibling",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty", "http://www.w3.org/2002/07/owl#IrreflexiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A character can has a sibling"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "hasSibling"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasSister",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A character has a sister if he/she has a sibling and the sibling is a female"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "hasSister"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isSister"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasVoiceActor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A character can have a voice actor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "hasVoiceActor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isVoiceActorOf"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#hasWriter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An episode has a writer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Episode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "hasWriter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Person"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isWriterOf"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isBrother",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A character is brother of anocher character if they are siblings and he is a male"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "isBrother"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isChild",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A character is child of another character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "isChild"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isFather"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isDirectorOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A person is the director of an episode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "isDirectorOf"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Episode"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isFather",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "a character is father of another character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "isFather"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isFirstAppearanceOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A character appears in one or several episodes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Episode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "isFirstAppearanceOf"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isGrandChild",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A character is the grandchild of another character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "isGrandChild"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isGrandFather"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isGrandFather",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "a character is granfather of another character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "isGrandFather"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isMemberOfFamily",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A character is member of a family"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "isMemberOfFamily"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Family"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isSister",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A character is sister of anocher character if they are siblings and she is a female"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "isSister"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isVoiceActorOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A person is voice actor of a character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "isVoiceActorOf"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#isWriterOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A person is the writer of an episode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "isWriterOf"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#Episode"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrl#AtomList",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrl#ClassAtom",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrl#Imp",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrl#Variable",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "urn:swrl:var#F",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrl#Variable"
+  } ]
+}, {
+  "@id" : "urn:swrl:var#G",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrl#Variable"
+  } ]
+}, {
+  "@id" : "urn:swrl:var#S",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrl#Variable"
+  } ]
+}, {
+  "@id" : "urn:swrl:var#c",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrl#Variable"
+  } ]
+}, {
+  "@id" : "urn:swrl:var#e",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrl#Variable"
+  } ]
+}, {
+  "@id" : "urn:swrl:var#p",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrl#Variable"
+  } ]
+}, {
+  "@id" : "urn:swrl:var#s",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrl#Variable"
+  } ]
+} ]
