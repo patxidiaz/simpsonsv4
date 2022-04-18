@@ -472,9 +472,6 @@
 }, {
   "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
-  "http://purl.org/dc/terms/license" : [ {
-    "@value" : "http://purl.org/NET/rdflicense/cc-by4.0"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Name: \nsimpsonsv4.owl\n\nDescription: \nThe Simpsons ontology describes the characters their relationships in \"The \nSimpsons\" cartoon series. \n\nAuthor:\nPatxi Díaz."
   } ]

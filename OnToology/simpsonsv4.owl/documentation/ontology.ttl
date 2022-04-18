@@ -7,7 +7,6 @@
 @base <http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4#> .
 
 <http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simpsonsv4> rdf:type owl:Ontology ;
-                                                                     <http://purl.org/dc/terms/license> "http://purl.org/NET/rdflicense/cc-by4.0" ;
                                                                      rdfs:comment """Name: 
 simpsonsv4.owl
 
